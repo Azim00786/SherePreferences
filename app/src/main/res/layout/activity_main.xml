@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/edittext"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter your name"
+       android:layout_marginHorizontal="20dp"
+       />
+    <EditText
+       android:id="@+id/edittext1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter your Pasword"
+       android:layout_marginHorizontal="20dp"
+        android:layout_below="@id/edittext"
+       />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Save"
+        android:textSize="20dp"
+        android:textColorHint="@color/white"
+     android:layout_centerInParent="true"
+        android:layout_marginHorizontal="20dp"
+        />
+    <Button
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Show"
+        android:textSize="20dp"
+        android:textColorHint="@color/white"
+      android:layout_below="@id/save"
+        android:layout_marginHorizontal="20dp"
+        /> <Button
+        android:id="@+id/show1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shere"
+        android:textSize="20dp"
+        android:textColorHint="@color/white"
+      android:layout_below="@id/show"
+        android:layout_marginHorizontal="20dp"
+        />
+
+
+</RelativeLayout>
